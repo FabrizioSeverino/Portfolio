@@ -141,3 +141,39 @@ footer a {
 footer a:hover {
     color: #e0e0e0;
 }
+/* ========================
+   Screenshot Section - Margini Aggiunti
+======================== */
+.screenshots {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.screenshots figure {
+    margin: 0;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); /* Ombra per profondità */
+    transition: transform 0.3s ease;
+}
+
+.screenshots figure:hover {
+    transform: scale(1.05); /* Effetto zoom al passaggio del mouse */
+}
+
+.screenshots img {
+    width: 100%;
+    border: 2px solid #00bfff; /* Accento blu brillante */
+    border-radius: 10px;
+    display: block;
+}
+
+.screenshots figcaption {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6); /* Sfondo semi-trasparente per il testo */
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+}
