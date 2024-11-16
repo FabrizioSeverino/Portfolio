@@ -5,11 +5,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    color: #e0e0e0; /* Testo chiaro */
+    color: #e0e0e0;
     background: 
         radial-gradient(circle, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.1) 70%), 
-        url('images/background_photo.png') no-repeat center center fixed; /* Gradiente scuro ai bordi */
-    background-size: cover; /* Copre l'intero schermo */
+        url('images/background_photo.png') no-repeat center center fixed;
+    background-size: cover;
 }
 
 /* ========================
@@ -18,14 +18,14 @@ body {
 header {
     text-align: center;
     padding: 50px;
-    background-color: rgba(0, 0, 0, 0.5); /* Sfondo semi-trasparente */
-    border-bottom: 5px solid #00bfff; /* Accento blu brillante */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid #00bfff;
 }
 
 header h1 {
     font-size: 3rem;
-    color: #00bfff; /* Colore del titolo */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombra per contrasto */
+    color: #00bfff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -33,62 +33,6 @@ header p {
     font-size: 1.2rem;
     color: #e0e0e0;
     margin: 10px 0;
-}
-
-/* ========================
-   Section About
-======================== */
-#about {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-    max-width: 800px;
-    margin: 30px auto;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-}
-
-#about p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    color: #d3d3d3; /* Testo grigio chiaro */
-}
-
-/* ========================
-   Contacts Section
-======================== */
-#contacts {
-    text-align: center;
-    margin: 50px 20px;
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.8); /* Sfondo semi-trasparente */
-    border-radius: 10px;
-    max-width: 800px;
-    margin: 30px auto;
-}
-
-#contacts h2 {
-    font-size: 2rem;
-    color: #00bfff;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#contacts p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #d3d3d3;
-    margin: 10px 0;
-}
-
-#contacts a {
-    color: #00bfff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-#contacts a:hover {
-    color: #e0e0e0; /* Colore al passaggio del mouse */
 }
 
 /* ========================
@@ -110,29 +54,48 @@ header p {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
+/* Layout dei bottoni */
 #projects ul {
-    list-style: none;
+    display: flex; /* Layout flessibile */
+    flex-wrap: wrap; /* Permette ai bottoni di andare a capo */
+    justify-content: center; /* Centra i bottoni */
+    gap: 20px; /* Spaziatura uniforme tra i bottoni */
     padding: 0;
     margin: 20px 0;
+    list-style: none; /* Rimuove i puntini */
 }
 
-#projects li {
-    margin-bottom: 10px;
-}
-
+/* Stile dei bottoni */
 #projects a {
-    color: #00bfff;
+    display: inline-block; /* Evita la sovrapposizione */
+    margin: 10px; /* Spaziatura attorno ai bottoni */
+    padding: 10px 20px;
+    color: white;
     text-decoration: none;
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 25px;
+    background: linear-gradient(to right, #00bfff, #1e90ff);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background 0.3s ease;
 }
 
 #projects a:hover {
-    background-color: #00bfff;
-    color: #000;
+    background: linear-gradient(to right, #1e90ff, #00bfff);
+    transform: translateY(-2px); /* Effetto hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #projects ul {
+        flex-direction: column; /* Allinea i bottoni verticalmente */
+        gap: 15px; /* Spaziatura verticale tra i bottoni */
+    }
+
+    #projects a {
+        width: 100%; /* Bottoni larghi quanto il contenitore */
+        text-align: center;
+    }
 }
 
 /* ========================
@@ -156,63 +119,3 @@ footer a:hover {
     color: #e0e0e0;
 }
 
-/* ========================
-   Screenshot Section - Margini Aggiunti
-======================== */
-.screenshots {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    margin-top: 40px;
-}
-
-.screenshots figure {
-    margin: 0;
-    width: 30%;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); /* Ombra per profondità */
-    transition: transform 0.3s ease;
-}
-
-.screenshots figure:hover {
-    transform: scale(1.05); /* Effetto zoom al passaggio del mouse */
-}
-
-.screenshots img {
-    width: 100%;
-    border: 2px solid #00bfff; /* Accento blu brillante */
-    border-radius: 10px;
-    display: block;
-}
-
-.screenshots figcaption {
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.6); /* Sfondo semi-trasparente per il testo */
-    text-align: center;
-    font-size: 1rem;
-    color: #fff;
-}
-
-/* ========================
-   Responsive Design
-======================== */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2.5rem;
-    }
-
-    header p {
-        font-size: 1rem;
-    }
-
-    #about, #contacts, #projects {
-        padding: 20px;
-        margin: 20px;
-    }
-
-    #projects a {
-        display: block;
-        margin: 10px auto;
-    }
-
-}
