@@ -85,19 +85,6 @@ header p {
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    #projects ul {
-        flex-direction: column; /* Allinea i bottoni verticalmente */
-        gap: 15px; /* Spaziatura verticale tra i bottoni */
-    }
-
-    #projects a {
-        width: 100%; /* Bottoni larghi quanto il contenitore */
-        text-align: center;
-    }
-}
-
 /* ========================
    Footer
 ======================== */
@@ -118,4 +105,81 @@ footer a {
 footer a:hover {
     color: #e0e0e0;
 }
+
+/* ========================
+   Responsive Design
+======================== */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    header {
+        padding: 30px 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    #projects ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #projects a {
+        font-size: 1rem;
+        padding: 10px;
+        width: 100%; /* Bottoni larghi quanto il contenitore */
+        text-align: center;
+    }
+
+    #contacts {
+        text-align: center;
+        padding: 20px;
+    }
+
+    footer {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    #projects a {
+        font-size: 0.9rem;
+    }
+}
+
+/* Immagini responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Screenshot layout */
+.screenshots figure {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.screenshots img {
+    width: 100%;
+    height: auto;
+}
+
 
