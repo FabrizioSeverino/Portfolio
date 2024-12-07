@@ -8,7 +8,7 @@ body {
     color: #e0e0e0;
     background: 
         radial-gradient(circle, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.1) 70%), 
-        url('images/background_photo.png') no-repeat center center fixed;
+        url('../images/background_photo.png') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -56,19 +56,19 @@ header p {
 
 /* Layout dei bottoni */
 #projects ul {
-    display: flex; /* Layout flessibile */
-    flex-wrap: wrap; /* Permette ai bottoni di andare a capo */
-    justify-content: center; /* Centra i bottoni */
-    gap: 20px; /* Spaziatura uniforme tra i bottoni */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     padding: 0;
     margin: 20px 0;
-    list-style: none; /* Rimuove i puntini */
+    list-style: none;
 }
 
 /* Stile dei bottoni */
 #projects a {
-    display: inline-block; /* Evita la sovrapposizione */
-    margin: 10px; /* Spaziatura attorno ai bottoni */
+    display: inline-block;
+    margin: 10px;
     padding: 10px 20px;
     color: white;
     text-decoration: none;
@@ -81,7 +81,7 @@ header p {
 
 #projects a:hover {
     background: linear-gradient(to right, #1e90ff, #00bfff);
-    transform: translateY(-2px); /* Effetto hover */
+    transform: translateY(-2px);
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
@@ -135,13 +135,8 @@ footer a:hover {
     #projects a {
         font-size: 1rem;
         padding: 10px;
-        width: 100%; /* Bottoni larghi quanto il contenitore */
+        width: 100%;
         text-align: center;
-    }
-
-    #contacts {
-        text-align: center;
-        padding: 20px;
     }
 
     footer {
@@ -181,5 +176,3 @@ img {
     width: 100%;
     height: auto;
 }
-
-
