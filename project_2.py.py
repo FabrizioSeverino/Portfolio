@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # 1. Caricamento del dataset
-df = pd.read_csv("C:/Users/fabri/Desktop/Corso Data Analytics/youth_smoking_drug_data_10000_rows_expanded.csv")
+df = pd.read_csv("youth_smoking_drug_data_10000_rows_expanded.csv")
 
 # 2. Panoramica del dataset
 print("Descrizione statistica del dataset:")
