@@ -1,9 +1,9 @@
-# Data Analyst Portfolio
-Welcome to my Data Analyst Portfolio!
+# Data Analyst/ Data Scientist Portfolio
+Welcome to my Data Analyst & Scientist Portfolio!
 
-Hello , I'm Fabrizio and I'm a data analyst with a strong foundation in utilizing various tools and technologies to collect, organize, and analyze data, providing actionable insights to support business decisions. I am proficient in Python, SQL, and Power BI. I have also gained experience with R and Excel, which I use to handle, analyze, and visualize data effectively. My skill set includes dashboard creation, data manipulation, report generation, statistics, and critical thinking.
+Hello , I'm Fabrizio and I'm a Junior Data Scientist with a strong foundation in utilizing various tools and technologies to collect, organize, and analyze data, providing actionable insights to support business decisions. I am proficient in Python, SQL, and Power BI. I have also gained experience with R and Excel, which I use to handle, analyze, and visualize data effectively. My skill set includes dashboard creation, data manipulation, report generation, statistics, and critical thinking. Moreover, i've also acquired a strong interest in Machine Learning's concept.
 
-Although I am at the beginning of my career and do not have direct professional experience yet, I am highly motivated and eager to learn. I have a strong passion for data analysis and am committed to growing my expertise while tackling new challenges.
+Although I am at the beginning of my career and do not have direct professional experience yet, I am highly motivated and eager to learn. I have a strong passion for data science and I am committed to growing my expertise while tackling new challenges.
 
 In this portfolio, you’ll find some projects that showcase my abilities in data analysis. These include examples of dashboards and reports I have created using Power BI and Python. These projects highlight my capacity to present data clearly, making insights accessible for decision-makers.
 
