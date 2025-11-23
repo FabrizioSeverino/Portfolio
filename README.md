@@ -1,4 +1,4 @@
-# Data Analyst/ Data Scientist Portfolio
+# Data Engineer/ Data Scientist Portfolio
 Welcome to my Data Analyst & Scientist Portfolio!
 
 Hello , I'm Fabrizio and I'm a Junior Data Scientist with a strong foundation in utilizing various tools and technologies to collect, organize, and analyze data, providing actionable insights to support business decisions. I am proficient in Python, SQL, and Power BI. I have also gained experience with R and Excel, which I use to handle, analyze, and visualize data effectively. My skill set includes dashboard creation, data manipulation, report generation, statistics, and critical thinking. Moreover, i've also acquired a strong interest in Machine Learning's concept.
