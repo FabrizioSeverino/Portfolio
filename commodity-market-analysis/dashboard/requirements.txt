@@ -1,4 +1,4 @@
-pandas
+pandas<3.0
 numpy
 matplotlib
 seaborn
@@ -6,7 +6,7 @@ plotly
 scikit-learn
 statsmodels
 xgboost
-streamlit
+streamlit>=1.50.0
 jupyter
 psycopg2-binary
 SQLAlchemy
